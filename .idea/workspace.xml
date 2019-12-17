@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcd034ec-1853-4b69-8461-4532f2dfd0db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TodoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TodoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TodoServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MathApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MathApplicationTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,22 +68,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MathApplicationTest.addTest">
+  <component name="RunManager" selected="JUnit.TodoServiceImplTest">
     <configuration name="ArithematicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Verification_And_Validation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ArithematicTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArithematicTest.BasicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Verification_And_Validation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArithematicTest" />
-      <option name="METHOD_NAME" value="BasicTest(int)" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,13 +107,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TodoServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Verification_And_Validation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TodoServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TodoServiceImplTest" />
         <item itemvalue="JUnit.MathApplicationTest.addTest" />
         <item itemvalue="JUnit.MathApplicationTest" />
         <item itemvalue="JUnit.MathApplicationTest.addService" />
         <item itemvalue="JUnit.ArithematicTest" />
-        <item itemvalue="JUnit.ArithematicTest.BasicTest" />
       </list>
     </recent_temporary>
   </component>

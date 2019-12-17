@@ -16,10 +16,13 @@ class MathApplicationTest {
         mathApplication.setCalculatorService(calcService);
         when(calcService.add(10.0,20.0)).thenReturn(30.00);
         when(calcService.subtract(20.0,12.0)).thenReturn(8.0);
-        doThrow(new ArithmeticException("Cannot expressed")).when(calcService).divide(1,0);
+        //doThrow(new ArithmeticException("Cannot expressed")).when(calcService).divide(1,0);
+
+        when(calcService.divide(anyDouble(),eq(0.0))).thenThrow(new ArithmeticException("..."));
+
         assertEquals(30.0,mathApplication.add(10.0,20.0));
         assertEquals(8.0,mathApplication.subtract(20.0,12.0));
-        assertThrows(ArithmeticException.class,() -> mathApplication.divide(1,0));
+        assertThrows(ArithmeticException.class,() -> mathApplication.divide(1.0,0.0));
         verify(calcService,times(1)).add(10.0, 20.0);
         verify(calcService).subtract(20.0,12.0);
         verify(calcService, Mockito.never()).subtract(1,0);
